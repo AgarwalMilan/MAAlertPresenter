@@ -22,3 +22,10 @@ to add UIAlertController object to the presenter queue which will present all th
 
 2. Call ```[[MAAlertPresenter sharedPresenter]dequeueAlert];``` inside each UIAlertAction Callback to dequeue the Presented UIAlertController from the queue and allow the next UIAlertController to be presented.
 
+## Contact
+[@milan_iOS](https://twitter.com/milan_iOS)
+
+[Milan Agarwal](mailto:agarwal.milan.apps@gmail.com)
+
+## Licence
+MAAlertPresenter is MIT licensed. See the LICENCE file for more info.
