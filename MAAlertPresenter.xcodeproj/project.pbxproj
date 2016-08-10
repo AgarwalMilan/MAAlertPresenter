@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2623A61D1D5B50C300963A83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A61C1D5B50C300963A83 /* main.m */; };
+		2623A6201D5B50C300963A83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A61F1D5B50C300963A83 /* AppDelegate.m */; };
+		2623A6231D5B50C300963A83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A6221D5B50C300963A83 /* ViewController.m */; };
+		2623A6261D5B50C300963A83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2623A6241D5B50C300963A83 /* Main.storyboard */; };
+		2623A6281D5B50C300963A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2623A6271D5B50C300963A83 /* Assets.xcassets */; };
+		2623A62B1D5B50C300963A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2623A6291D5B50C300963A83 /* LaunchScreen.storyboard */; };
+		2623A6361D5B50C300963A83 /* MAAlertPresenterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A6351D5B50C300963A83 /* MAAlertPresenterTests.m */; };
+		2623A6411D5B50C300963A83 /* MAAlertPresenterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A6401D5B50C300963A83 /* MAAlertPresenterUITests.m */; };
+		2623A6511D5B51D100963A83 /* MAAlertPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2623A6501D5B51D100963A83 /* MAAlertPresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2623A6321D5B50C300963A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2623A6101D5B50C200963A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2623A6171D5B50C300963A83;
+			remoteInfo = MAAlertPresenter;
+		};
+		2623A63D1D5B50C300963A83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2623A6101D5B50C200963A83 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2623A6171D5B50C300963A83;
+			remoteInfo = MAAlertPresenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2623A6181D5B50C300963A83 /* MAAlertPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAAlertPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2623A61C1D5B50C300963A83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2623A61E1D5B50C300963A83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2623A61F1D5B50C300963A83 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2623A6211D5B50C300963A83 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2623A6221D5B50C300963A83 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2623A6251D5B50C300963A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2623A6271D5B50C300963A83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2623A62A1D5B50C300963A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2623A62C1D5B50C300963A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2623A6311D5B50C300963A83 /* MAAlertPresenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAAlertPresenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2623A6351D5B50C300963A83 /* MAAlertPresenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAlertPresenterTests.m; sourceTree = "<group>"; };
+		2623A6371D5B50C300963A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2623A63C1D5B50C300963A83 /* MAAlertPresenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAAlertPresenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2623A6401D5B50C300963A83 /* MAAlertPresenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MAAlertPresenterUITests.m; sourceTree = "<group>"; };
+		2623A6421D5B50C300963A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2623A64F1D5B51D100963A83 /* MAAlertPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAAlertPresenter.h; sourceTree = "<group>"; };
+		2623A6501D5B51D100963A83 /* MAAlertPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAAlertPresenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2623A6151D5B50C300963A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A62E1D5B50C300963A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A6391D5B50C300963A83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2623A60F1D5B50C200963A83 = {
+			isa = PBXGroup;
+			children = (
+				2623A61A1D5B50C300963A83 /* MAAlertPresenter */,
+				2623A6341D5B50C300963A83 /* MAAlertPresenterTests */,
+				2623A63F1D5B50C300963A83 /* MAAlertPresenterUITests */,
+				2623A6191D5B50C300963A83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2623A6191D5B50C300963A83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2623A6181D5B50C300963A83 /* MAAlertPresenter.app */,
+				2623A6311D5B50C300963A83 /* MAAlertPresenterTests.xctest */,
+				2623A63C1D5B50C300963A83 /* MAAlertPresenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2623A61A1D5B50C300963A83 /* MAAlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				2623A61E1D5B50C300963A83 /* AppDelegate.h */,
+				2623A61F1D5B50C300963A83 /* AppDelegate.m */,
+				2623A6211D5B50C300963A83 /* ViewController.h */,
+				2623A6221D5B50C300963A83 /* ViewController.m */,
+				2623A6241D5B50C300963A83 /* Main.storyboard */,
+				2623A6271D5B50C300963A83 /* Assets.xcassets */,
+				2623A6291D5B50C300963A83 /* LaunchScreen.storyboard */,
+				2623A62C1D5B50C300963A83 /* Info.plist */,
+				2623A64E1D5B51B500963A83 /* MAAlertPresenter */,
+				2623A61B1D5B50C300963A83 /* Supporting Files */,
+			);
+			path = MAAlertPresenter;
+			sourceTree = "<group>";
+		};
+		2623A61B1D5B50C300963A83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2623A61C1D5B50C300963A83 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2623A6341D5B50C300963A83 /* MAAlertPresenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2623A6351D5B50C300963A83 /* MAAlertPresenterTests.m */,
+				2623A6371D5B50C300963A83 /* Info.plist */,
+			);
+			path = MAAlertPresenterTests;
+			sourceTree = "<group>";
+		};
+		2623A63F1D5B50C300963A83 /* MAAlertPresenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2623A6401D5B50C300963A83 /* MAAlertPresenterUITests.m */,
+				2623A6421D5B50C300963A83 /* Info.plist */,
+			);
+			path = MAAlertPresenterUITests;
+			sourceTree = "<group>";
+		};
+		2623A64E1D5B51B500963A83 /* MAAlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				2623A64F1D5B51D100963A83 /* MAAlertPresenter.h */,
+				2623A6501D5B51D100963A83 /* MAAlertPresenter.m */,
+			);
+			path = MAAlertPresenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2623A6171D5B50C300963A83 /* MAAlertPresenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2623A6451D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenter" */;
+			buildPhases = (
+				2623A6141D5B50C300963A83 /* Sources */,
+				2623A6151D5B50C300963A83 /* Frameworks */,
+				2623A6161D5B50C300963A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAAlertPresenter;
+			productName = MAAlertPresenter;
+			productReference = 2623A6181D5B50C300963A83 /* MAAlertPresenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2623A6301D5B50C300963A83 /* MAAlertPresenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2623A6481D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenterTests" */;
+			buildPhases = (
+				2623A62D1D5B50C300963A83 /* Sources */,
+				2623A62E1D5B50C300963A83 /* Frameworks */,
+				2623A62F1D5B50C300963A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2623A6331D5B50C300963A83 /* PBXTargetDependency */,
+			);
+			name = MAAlertPresenterTests;
+			productName = MAAlertPresenterTests;
+			productReference = 2623A6311D5B50C300963A83 /* MAAlertPresenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2623A63B1D5B50C300963A83 /* MAAlertPresenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2623A64B1D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenterUITests" */;
+			buildPhases = (
+				2623A6381D5B50C300963A83 /* Sources */,
+				2623A6391D5B50C300963A83 /* Frameworks */,
+				2623A63A1D5B50C300963A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2623A63E1D5B50C300963A83 /* PBXTargetDependency */,
+			);
+			name = MAAlertPresenterUITests;
+			productName = MAAlertPresenterUITests;
+			productReference = 2623A63C1D5B50C300963A83 /* MAAlertPresenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2623A6101D5B50C200963A83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Milan Agarwal";
+				TargetAttributes = {
+					2623A6171D5B50C300963A83 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					2623A6301D5B50C300963A83 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2623A6171D5B50C300963A83;
+					};
+					2623A63B1D5B50C300963A83 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 2623A6171D5B50C300963A83;
+					};
+				};
+			};
+			buildConfigurationList = 2623A6131D5B50C200963A83 /* Build configuration list for PBXProject "MAAlertPresenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2623A60F1D5B50C200963A83;
+			productRefGroup = 2623A6191D5B50C300963A83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2623A6171D5B50C300963A83 /* MAAlertPresenter */,
+				2623A6301D5B50C300963A83 /* MAAlertPresenterTests */,
+				2623A63B1D5B50C300963A83 /* MAAlertPresenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2623A6161D5B50C300963A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2623A62B1D5B50C300963A83 /* LaunchScreen.storyboard in Resources */,
+				2623A6281D5B50C300963A83 /* Assets.xcassets in Resources */,
+				2623A6261D5B50C300963A83 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A62F1D5B50C300963A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A63A1D5B50C300963A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2623A6141D5B50C300963A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2623A6231D5B50C300963A83 /* ViewController.m in Sources */,
+				2623A6201D5B50C300963A83 /* AppDelegate.m in Sources */,
+				2623A61D1D5B50C300963A83 /* main.m in Sources */,
+				2623A6511D5B51D100963A83 /* MAAlertPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A62D1D5B50C300963A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2623A6361D5B50C300963A83 /* MAAlertPresenterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2623A6381D5B50C300963A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2623A6411D5B50C300963A83 /* MAAlertPresenterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2623A6331D5B50C300963A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2623A6171D5B50C300963A83 /* MAAlertPresenter */;
+			targetProxy = 2623A6321D5B50C300963A83 /* PBXContainerItemProxy */;
+		};
+		2623A63E1D5B50C300963A83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2623A6171D5B50C300963A83 /* MAAlertPresenter */;
+			targetProxy = 2623A63D1D5B50C300963A83 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2623A6241D5B50C300963A83 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2623A6251D5B50C300963A83 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2623A6291D5B50C300963A83 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2623A62A1D5B50C300963A83 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2623A6431D5B50C300963A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2623A6441D5B50C300963A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2623A6461D5B50C300963A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAAlertPresenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2623A6471D5B50C300963A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MAAlertPresenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2623A6491D5B50C300963A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAAlertPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAAlertPresenter.app/MAAlertPresenter";
+			};
+			name = Debug;
+		};
+		2623A64A1D5B50C300963A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MAAlertPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAAlertPresenter.app/MAAlertPresenter";
+			};
+			name = Release;
+		};
+		2623A64C1D5B50C300963A83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAAlertPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAAlertPresenter;
+			};
+			name = Debug;
+		};
+		2623A64D1D5B50C300963A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MAAlertPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.milan.MAAlertPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MAAlertPresenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2623A6131D5B50C200963A83 /* Build configuration list for PBXProject "MAAlertPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2623A6431D5B50C300963A83 /* Debug */,
+				2623A6441D5B50C300963A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2623A6451D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2623A6461D5B50C300963A83 /* Debug */,
+				2623A6471D5B50C300963A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2623A6481D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2623A6491D5B50C300963A83 /* Debug */,
+				2623A64A1D5B50C300963A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2623A64B1D5B50C300963A83 /* Build configuration list for PBXNativeTarget "MAAlertPresenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2623A64C1D5B50C300963A83 /* Debug */,
+				2623A64D1D5B50C300963A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2623A6101D5B50C200963A83 /* Project object */;
+}
