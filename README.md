@@ -1,7 +1,7 @@
 # MAAlertPresenter
 It will present multiple UIAlertControllers one by one.
 
-![Demo](https://thumbs.gfycat.com/TastyWearyKatydid-size_restricted.gif)
+![Demo](https://thumbs.gfycat.com/MessyGreedyIridescentshark-size_restricted.gif)
 
 ## Installation
 
