@@ -1,6 +1,8 @@
 # MAAlertPresenter
 It will present multiple UIAlertControllers one by one.
 
+![Demo](https://thumbs.gfycat.com/TastyWearyKatydid-size_restricted.gif)
+
 ## Installation
 
 Copy MAAlertPresenter.h and MAAlertPresenter.m files to your project.
